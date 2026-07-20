@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EDU_Admissions_HigherEd_Article</fullName>
+    <active>true</active>
+    <description>Article for community users to read. Created by Solution Development Team 2022 when initially moving to core.</description>
+    <label>Admissions - HigherEd - Article</label>
+    <picklistValues>
+        <picklist>Article_Confidence__c</picklist>
+        <values>
+            <fullName>Archived</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Validated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Work in Progress</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

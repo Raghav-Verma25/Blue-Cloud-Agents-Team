@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EDU_Admissions_HigherEd_Financial_Aid_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Financial Aid</label>
+    <queue>EDU_Admissions_HigherEd_Financial_Aid</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

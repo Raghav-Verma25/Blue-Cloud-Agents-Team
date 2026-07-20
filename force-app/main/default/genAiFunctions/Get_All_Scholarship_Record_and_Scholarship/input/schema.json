@@ -1,0 +1,14 @@
+{
+  "required" : [ "user_Choice" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "user_Choice" : {
+      "title" : "user_Choice",
+      "description" : "user enter the choice ",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

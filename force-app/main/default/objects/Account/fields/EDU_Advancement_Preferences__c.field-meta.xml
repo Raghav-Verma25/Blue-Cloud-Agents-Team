@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EDU_Advancement_Preferences__c</fullName>
+    <label>Preferences</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Do Not Call</fullName>
+                <default>false</default>
+                <label>Do Not Call</label>
+            </value>
+            <value>
+                <fullName>Do Not Mail</fullName>
+                <default>false</default>
+                <label>Do Not Mail</label>
+            </value>
+            <value>
+                <fullName>Do Not Solicit</fullName>
+                <default>false</default>
+                <label>Do Not Solicit</label>
+            </value>
+            <value>
+                <fullName>Email Opt Out</fullName>
+                <default>false</default>
+                <label>Email Opt Out</label>
+            </value>
+            <value>
+                <fullName>No Direct Mail</fullName>
+                <default>false</default>
+                <label>No Direct Mail</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

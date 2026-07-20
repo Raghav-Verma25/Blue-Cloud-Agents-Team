@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application_Tier__c</fullName>
+    <label>Application Tier</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Regular Decision</fullName>
+                <default>false</default>
+                <label>Regular Decision</label>
+            </value>
+            <value>
+                <fullName>Early Decision</fullName>
+                <default>false</default>
+                <label>Early Decision</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

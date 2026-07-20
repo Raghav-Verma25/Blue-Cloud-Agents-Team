@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bachelor_Learning_Programs</fullName>
+    <columns>Name</columns>
+    <columns>Learning</columns>
+    <columns>Duration</columns>
+    <columns>DurationUnit</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Name</field>
+        <operation>contains</operation>
+        <value>Bachelor</value>
+    </filters>
+    <label>Bachelor Learning Programs</label>
+</ListView>

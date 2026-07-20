@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EDU_Admissions_High_School_Seniors</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Verify_ID_High_School__pc</columns>
+    <columns>Placement_Test_Taken__pc</columns>
+    <columns>EDU_FinancialAid_ActiveFAFSA__pc</columns>
+    <filterScope>Mine</filterScope>
+    <label>High School Seniors</label>
+</ListView>

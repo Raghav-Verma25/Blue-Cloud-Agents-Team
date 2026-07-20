@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EDU_Admissions_HigherEd_Admissions_FAQ_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Admissions FAQ</label>
+    <queue>EDU_Admissions_HigherEd_Admissions_FAQ</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

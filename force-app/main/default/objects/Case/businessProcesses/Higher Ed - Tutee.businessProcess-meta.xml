@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Higher Ed - Tutee</fullName>
+    <description>Support process related to tutoring cases for scheduling.</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>%E2%9D%8E  Closed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Active Student</fullName>
+        <default>true</default>
+    </values>
+</BusinessProcess>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This agent action is used to display the Scholarship &amp; internal program course details of particular program.</description>
+    <developerName>ATF_Get_Scholarship_Course_Details</developerName>
+    <invocationTarget>ATF_Get_Scholarship_Course_Details</invocationTarget>
+    <invocationTargetType>flow</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <isIncludeInProgressIndicator>false</isIncludeInProgressIndicator>
+    <localDeveloperName>ATF_Get_Scholarship_Course_Details</localDeveloperName>
+    <masterLabel>ATF - Get Scholarship &amp; Course Details</masterLabel>
+</GenAiFunction>

@@ -1,0 +1,32 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "listOfLearningProgramName" : {
+      "title" : "listOfLearningProgramName",
+      "description" : "display listOfLearningProgramName to user",
+      "maxItems" : 2000,
+      "items" : {
+        "lightning:type" : "lightning__textType"
+      },
+      "lightning:type" : "lightning__listType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "listOfScholarshipName" : {
+      "title" : "listOfScholarshipName",
+      "description" : "display listOfScholarshipName to user",
+      "maxItems" : 2000,
+      "items" : {
+        "lightning:type" : "lightning__textType"
+      },
+      "lightning:type" : "lightning__listType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

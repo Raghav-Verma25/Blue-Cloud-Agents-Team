@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EDU_Student_Success_Higher_Ed_Career_Advisor_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Career Advisors</label>
+    <queue>Student_Success_Higher_Ed_Career_Advisor</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

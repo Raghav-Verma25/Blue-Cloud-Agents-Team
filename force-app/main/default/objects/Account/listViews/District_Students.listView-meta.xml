@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>District_Students</fullName>
+    <columns>PC_FIRST_NAME</columns>
+    <columns>PC_LAST_NAME</columns>
+    <columns>At_Risk__pc</columns>
+    <columns>PC_ADDRESS2_COUNTRY</columns>
+    <columns>Placement_Test_Taken__pc</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>External_ID__c</field>
+        <operation>contains</operation>
+        <value>k</value>
+    </filters>
+    <filters>
+        <field>PC_FIRST_NAME</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>District Students</label>
+</ListView>

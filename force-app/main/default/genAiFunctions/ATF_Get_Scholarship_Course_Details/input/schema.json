@@ -1,0 +1,14 @@
+{
+  "required" : [ "courseName" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "courseName" : {
+      "title" : "courseName",
+      "description" : "User will enter course Name",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

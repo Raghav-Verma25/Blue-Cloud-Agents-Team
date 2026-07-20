@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fee_Frequency__c</fullName>
+    <label>Fee Frequency</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Per Semester</fullName>
+                <default>false</default>
+                <label>Per Semester</label>
+            </value>
+            <value>
+                <fullName>Per Year</fullName>
+                <default>false</default>
+                <label>Per Year</label>
+            </value>
+            <value>
+                <fullName>Total Program</fullName>
+                <default>false</default>
+                <label>Total Program</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
